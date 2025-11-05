@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-worker-mongodb-hyperdrive",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "itty-router": "^5.0.18",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "wrangler": "^3.86.0"
+  }
+}
